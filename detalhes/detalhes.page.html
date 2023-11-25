@@ -1,0 +1,25 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/cards"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Detalhes da Carta
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      {{ cardDetails.name }}
+    </ion-card-header>
+    <ion-card-content>
+  
+      Tipo: {{ cardDetails.type }}
+      <br>
+      Raridade: {{ cardDetails.rarity }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
